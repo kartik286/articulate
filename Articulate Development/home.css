@@ -1,0 +1,120 @@
+
+
+.banner {
+    height: 100vh;
+    background-image: url("./assets/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0% 20%;
+}
+
+.banner p {
+    padding-left: 90px;
+    font-family: 'Raleway', sans-serif;
+    padding-top: 30vh;
+    width: 40vw;
+    font-size: 40px;
+    font-style: oblique;
+    color: rgb(244, 245, 240)
+}
+
+.banner button {
+    background-color: transparent;
+    border-radius: 20px;
+    border: 4px solid white;
+    color: white;
+    padding: 10px 20px;
+    margin-left: 90px;
+    margin-top: 40px;
+    font-size: 40px;
+}
+
+.banner button:hover {
+    cursor: pointer;
+}
+
+.heading {
+    font-size: 50px;
+    font-family: 'Raleway', sans-serif;
+    border-bottom: 4px solid #276441;
+    width: fit-content;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.cover-paragraph {
+    margin-right: auto;
+    margin-left: auto;
+    width: 90vw;
+}
+
+.cover-paragraph .heading {
+    margin-top: 30px;
+}
+
+.cover-content {
+    margin-top: 20px;
+    font-size: 26px;
+    text-align: justify;
+    margin-bottom: 40px;
+    text-indent: 60px;
+}
+
+.about-container {
+    padding: 50px 40px;
+    line-height: 40px;
+}
+
+.cover-content span {
+    font-size: 40px;
+    font-family: 'Raleway', sans-serif;
+    color: #03140a;
+}
+.fbanner {
+    height: 300px;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0% 0%;
+}
+.fbanner p {
+    position: relative;
+    width: fit-content;
+    font-family: 'Raleway', sans-serif;
+    padding-top: 123px ;
+    font-size: 70px;
+    color: rgb(10, 8, 8);
+    margin-right: auto;
+    margin-left: auto;
+    border-bottom: 4px solid #23bb65;
+}
+.form-wrapper {
+    padding-top: 40px;
+    width: 48vw;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 20px;
+}
+form input {
+    outline: none;
+    border-radius: 10px;
+    border: 1px solid #056830;
+    margin: 10px 0px;
+    padding: 10px 20px;
+    min-width: 500px;
+}
+form textarea {
+    outline: none;
+    margin: 10px 0px;
+    padding: 10px 20px;
+    min-width: 500px;
+    border-radius: 10px;
+    border: 1px solid #056830;
+    height: 200px;
+}
+.sbt-btn {
+    background-color: #056830;
+    color: white;
+    min-width: fit-content;
+    padding: 10px 250px;
+}

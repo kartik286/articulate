@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=5.0">
+    <title>Articulate Development Co.</title>
+    <link rel="icon" type="image/x-icon" href="./assets/ico.png">
+    <link type="text/css" rel="stylesheet" href="Login.css">
+    <link type="text/css" rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <script>
+      function check()
+      {
+      var user=document.getElementById("username").value;
+      var pass=document.getElementById("password").value;
+      if(user=="*****" && pass=="*****")
+      {
+      alert("login Successfull");
+      }
+      else
+      {
+      alert("Login UnSuccessfull");
+      }
+      }
+      </script>
+</head>
+
+
+<body>
+    <div class="navbar">
+        <div class="navbar-left">
+            <a href="./home.html"><img src="./assets/logo-white.png"></a>
+        </div>
+
+        <div class="navbar-right phone-hidden">
+            <a href="./home.html">Home</a>
+            <a href="./gallery.html">Gallery</a>
+            <a href="./about.html">About</a>
+            <a href="./contact.html">Contact Us</a>
+            <a href="./Login.html" class="active">Login</a>
+        </div>
+    </div>
+
+    
+  
+
+<body>
+   
+    
+  <div class="container">
+    <form>
+      <div class="form-group">
+        <label for="username">Username</label>
+        <input type="text" id="username" placeholder="Enter your username">
+      </div>
+      <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" id="password" placeholder="Enter your password">
+      </div>
+      <div class="form-group">
+        <input type="submit" value="Log In"  onclick="check()">
+      </div>
+    </form>
+    <div class="links">
+      <a href="#">Forgot Password?</a>
+      <span>|</span>
+      <a href="./signup.html">Sign up</a>
+    </div>
+  </div>
+</body>
+
+
+
+    
+    </div>
+
+    </div>
+    <footer>
+      <div class="footer-wrapper phone-hidden">
+          <div class="footer-image">
+              <a href="./home.html" ><img src="./assets/footer-square1.png" width="180"></a> 
+          </div>
+          <div class="address">
+              <h2>Address</h2>
+              <p>
+                   
+                  <br>Articulate Development Co.
+                  <br> No-324, Race Course Rd,
+                  <br> Hassan 
+                  <br> Karnataka 573201
+                  <br> Phone Number: 080 6541 8588 <br> India
+              </p>
+          </div>
+          <div class="follow">
+              <h2>Follow us on</h2>
+              <p>
+                  <a href="https://instagram.com"><i class="fab fa-instagram fa-2x"></i>Instagram</a><br>
+                  <a href="https://facebook.com"><i class="fab fa-facebook-square fa-2x"></i>Facebook</a><br>
+                  <a href="https://twitter.com"><i class="fab fa-twitter-square fa-2x"></i>Twitter</a><br>
+              </p>
+          </div>
+
+      </div>
+
+      </div>
+
+
+  </footer>
+</body>
+
+</html>

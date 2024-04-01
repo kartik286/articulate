@@ -1,0 +1,49 @@
+
+.banner {
+    height: 300px;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0% 0%;
+}
+.banner p {
+    position: relative;
+    width: fit-content;
+    font-family: 'Raleway', sans-serif;
+    padding-top: 123px ;
+    font-size: 70px;
+    color: rgb(10, 8, 8);
+    margin-right: auto;
+    margin-left: auto;
+    border-bottom: 4px solid #23bb65;
+}
+.form-wrapper {
+    padding-top: 40px;
+    width: 48vw;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 20px;
+}
+form input {
+    outline: none;
+    border-radius: 10px;
+    border: 1px solid #056830;
+    margin: 10px 0px;
+    padding: 10px 20px;
+    min-width: 500px;
+}
+form textarea {
+    outline: none;
+    margin: 10px 0px;
+    padding: 10px 20px;
+    min-width: 500px;
+    border-radius: 10px;
+    border: 1px solid #056830;
+    height: 200px;
+}
+.sbt-btn {
+    background-color: #056830;
+    color: white;
+    min-width: fit-content;
+    padding: 10px 250px;
+}

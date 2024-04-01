@@ -1,0 +1,27 @@
+.garden-container{
+    display: flex;
+    flex-flow: column;
+
+    padding: 10px 50px;
+
+}
+.garden-item{
+    display: flex;
+    margin-bottom: 20px;
+}
+.garden-item img{
+    max-width: 450px;
+    height: auto;
+}
+.garden-ad{
+    padding-left: 30px;
+}
+.garden-ad ul, .garden-ad ol{
+    font-size: 20px;
+    margin-left: 50px;
+}
+p{
+    padding: 5px 20px;
+    font-size: 20px;
+    line-height: 26px;
+}

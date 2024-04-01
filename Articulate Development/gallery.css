@@ -1,0 +1,29 @@
+
+
+.gallery-container{
+    display: flex;
+    flex-flow: wrap;
+    align-items: center;
+    padding: 150px 30px 20px;
+}
+
+div.gallery {
+    margin: 5px;
+    padding: 10px;
+    box-shadow: 0 0 10px 3px rgba(0,0,0,.1);
+    background: lightgrey;
+    border: 1px solid darkgrey;
+}
+.gallery img{
+    display: block;
+    margin: auto;
+    max-height: 250px;
+}
+div.gallery:hover {
+    border: 1px solid #777;
+    box-shadow: 0 0 10px 3px rgba(0,0,0,.5);
+}
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
